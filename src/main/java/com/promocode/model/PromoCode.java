@@ -11,6 +11,6 @@ public class PromoCode {
     private Integer id;
     private String promoCode;
     private BigDecimal discount;
-    private Date expDate;
+    private String expDate;
 
 }

@@ -7,15 +7,14 @@ import javax.persistence.Id;
 import java.math.BigDecimal;
 import java.util.Date;
 
-
 @Entity
-public class PromoCodeEntity {
+public class PromoCode {
 
     @Id
     @GeneratedValue(strategy = GenerationType.IDENTITY)
     private Integer id;
     private String promoCode;
     private BigDecimal discount;
-    private Date expDate;
+    private String expDate;
 
 }
